@@ -8,8 +8,22 @@
     src: url("../fonts/NEWSPIRIT-SEMIBOLDCONDENSED.TTF");
 }
 
+@font-face{ 
+    font-family: 'New Spirit Bold Condensed'; 
+    src: url("../fonts/NEWSPIRIT-BOLDCONDENSED.TTF");
+}
+
+@font-face{ 
+    font-family: 'New Spirit Regular'; 
+    src: url("../fonts/NEWSPIRIT-REGULAR.TTF");
+}
+
+body{
+    margin-top: 12vh;
+}
 .navbar{
     border-bottom: 3px solid #000;
+    background-color: #fff;
 }
 .navbar-logo{
     height: 7vh;
@@ -22,6 +36,7 @@
 .navbar-nav > li{
     margin-left: 0.6vw;
     margin-right: 0.6vw;
+    background-color: #fff;
 }
 .navbar-nav > li > .active{
     background-color: #41953C;
@@ -29,8 +44,8 @@
     font-family: 'New Spirit Semibold Condensed';
 }
 .nav-link{
-    padding-left: 3vw !important;
-    padding-right: 3vw !important;
+    padding-left: 2.6vw !important;
+    padding-right: 2.6vw !important;
     border-radius: 0.4vw;
 }
 .navbar-nav > li > a{
@@ -39,3 +54,100 @@
 .navbar-nav > li > a:hover{
     border: 2px solid #959595;    
 }
+
+.list-group-item{
+    border: none;
+    background-color: #FFFEF8;
+}
+footer{
+    padding-top: 4vh;
+    padding-bottom: 2vw;
+    background-color: #FFFEF8;
+}
+.socialMedia > a{
+    color: inherit;
+}
+.socialMedia{
+    text-align: center;
+    font-size: 250%;
+}
+.semibold{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.reg_con{
+    font-family: 'New Spirit Regular Condensed';    
+}
+@media(min-width:0px){
+    .footer-header{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 6vw;
+        letter-spacing: 0.5vw;
+    }
+    .footer-subheader{
+        font-family: 'New Spirit Semibold Condensed';
+        font-size: 4.8vw;
+    }
+    .footer-copyright{
+        font-family: 'New Spirit Regular';
+        font-size: 3vw;
+        letter-spacing: 0.2vw;
+    }
+}
+
+@media(min-width:576px){
+    .footer-header{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 4vw;
+        letter-spacing: 0.5vw;
+    }
+    .footer-subheader{
+        font-family: 'New Spirit Semibold Condensed';
+        font-size: 3.2vw;
+    }
+    .footer-copyright{
+        font-family: 'New Spirit Regular';
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+    }
+}
+
+@media(min-width:992px){
+    .footer-header{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 3vw;
+        letter-spacing: 0.5vw;
+    }
+    .footer-subheader{
+        font-family: 'New Spirit Semibold Condensed';
+        font-size: 2.4vw;
+    }
+    .footer-copyright{
+        font-family: 'New Spirit Regular';
+        font-size: 1.5vw;
+        letter-spacing: 0.2vw;
+    }
+}
+
+@media(min-width:1200px){
+    .footer-header{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 2vw;
+        letter-spacing: 0.5vw;
+    }
+    .footer-subheader{
+        font-family: 'New Spirit Semibold Condensed';
+        font-size: 1.6vw;
+    }
+    .footer-copyright{
+        font-family: 'New Spirit Regular';
+        font-size: 1vw;
+        letter-spacing: 0.2vw;
+    }
+}
+
+/* .col-12{
+    border: 1px solid red;
+}
+.row{
+    border:1px solid blue;
+} */
