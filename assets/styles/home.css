@@ -64,6 +64,16 @@ footer{
     padding-bottom: 2vw;
     background-color: #FFFEF8;
 }
+.footer-link{
+    color: inherit;
+    text-decoration: none;
+}
+.footer-link:hover, .footer-link:visited{
+    color: inherit;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
 .socialMedia > a{
     color: inherit;
 }
@@ -144,10 +154,3 @@ footer{
         letter-spacing: 0.2vw;
     }
 }
-
-/* .col-12{
-    border: 1px solid red;
-}
-.row{
-    border:1px solid blue;
-} */
