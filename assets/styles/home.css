@@ -90,12 +90,13 @@ footer{
 .social-media > a:hover{
     color: #41953C;
 }
-.semibold{
+.ns-semibold-condensed{
     font-family: 'New Spirit Semibold Condensed';
 }
-.reg_con{
+.ns-regular-condensed{
     font-family: 'New Spirit Regular Condensed';    
 }
+
 @media(min-width:0px){
     .footer-header{
         font-family: 'New Spirit Bold Condensed';
