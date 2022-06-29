@@ -18,6 +18,10 @@
     src: url("../fonts/NEWSPIRIT-REGULAR.TTF");
 }
 
+body{
+    margin-top: 12vh;
+    color: #413E39;
+}
 .navbar{
     border-bottom: 3px solid #000;
     background-color: #fff;
