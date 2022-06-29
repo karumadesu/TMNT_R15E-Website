@@ -101,6 +101,9 @@ footer{
     padding-bottom: 2vw;
     background-color: #FFFEF8;
 }
+.footer{
+    border-top: 3px solid #413E39;
+}
 .footer-link{
     color: inherit;
     text-decoration: none;
@@ -256,23 +259,16 @@ footer{
         letter-spacing: 0.2vw;
     }
     .contact-text{
-        font-size: 2vw;
+        font-size: 1.6vw;
     }
     form > .row > input{
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
     form > .row > textarea{
-        font-size: 1.4vw;
+        font-size: 1.2vw;
     }
     form > .row > button{
-        font-size: 1.4vw;
+        font-size: 1.2vw;
         width: 8vw;
     }
 }
-
-/* .col-12{
-    border: 1px solid red;
-}
-.row{
-    border: 1px solid blue;
-} */

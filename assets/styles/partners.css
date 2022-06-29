@@ -56,6 +56,23 @@ body{
     border: 2px solid #959595;    
 }
 
+.partners-title{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.carousel-indicators .active{
+    background-color: #41953C !important;
+}
+.other-partners{
+    margin-top: 10vh;
+}
+.other-row-1{
+    margin-bottom: 3vh;
+}
+.other-row-2{
+    margin-bottom: 20vh;
+}
+
 .list-group-item{
     border: none;
     background-color: #FFFEF8;
@@ -64,6 +81,9 @@ footer{
     padding-top: 4vh;
     padding-bottom: 2vw;
     background-color: #FFFEF8;
+}
+.footer{
+    border-top: 3px solid #413E39;
 }
 .footer-link{
     color: inherit;
@@ -109,6 +129,27 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 3vw;
         letter-spacing: 0.2vw;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 6vw;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 4vw;
+    }
+    .other-partners-title{
+        font-family: 'New Spirit Semibold Condensed';
+        font-size: 2.4vw;
+        letter-spacing: 0.3vw;
+    }
+    .carousel-control-prev-icon{
+        background-image: none !important;
+        filter: none !important;
+    }
+    .carousel-control-next-icon{
+        background-image: none !important;
+        filter: none !important;
     }
 }
 
@@ -160,5 +201,26 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 1vw;
         letter-spacing: 0.2vw;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 1.8vw;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 1vw;
+    }
+    .other-partners-title{
+        font-family: 'New Spirit Semibold Condensed';
+        font-size: 2.4vw;
+        letter-spacing: 0.3vw;
+    }
+    .carousel-control-prev-icon{
+        background-image: url("../images/ToLeft.png") !important;
+        filter: none !important;
+    }
+    .carousel-control-next-icon{
+        background-image: url("../images/ToRight.png") !important;
+        filter: none !important;
     }
 }
