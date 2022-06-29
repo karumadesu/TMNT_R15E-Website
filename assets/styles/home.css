@@ -23,6 +23,7 @@ body{
     background-image: url("../images/bg.png");
     background-repeat: no-repeat;
     background-size: contain;
+    color: #413E39;
 }
 .navbar{
     border-bottom: 3px solid #000;
