@@ -18,9 +18,6 @@
     src: url("../fonts/NEWSPIRIT-REGULAR.TTF");
 }
 
-body{
-    margin-top: 12vh;
-}
 .navbar{
     border-bottom: 3px solid #000;
     background-color: #fff;
@@ -74,12 +71,18 @@ footer{
 .footer-link:hover{
     text-decoration: underline;
 }
-.socialMedia > a{
+.social-media > a{
     color: inherit;
+    text-decoration: none;
+    color: #413E39;
+    transition: 0.3s
 }
-.socialMedia{
+.social-media{
     text-align: center;
     font-size: 250%;
+}
+.social-media > a:hover{
+    color: #41953C;
 }
 .semibold{
     font-family: 'New Spirit Semibold Condensed';

@@ -22,7 +22,7 @@ body{
     margin-top: 12vh;
 }
 .navbar{
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid #413E39;;
     background-color: #fff;
 }
 .navbar-logo{
@@ -30,7 +30,7 @@ body{
     padding-left: 4vw;
 }
 .nav-link{
-    color: #000;
+    color: #413E39;
     font-family: 'New Spirit Regular Condensed';
 }
 .navbar-nav > li{
@@ -55,6 +55,42 @@ body{
     border: 2px solid #959595;    
 }
 
+.message-form{
+    margin-bottom: 20vh;
+}
+.contact-title{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.contact-text{
+    font-family: 'New Spirit Bold Condensed';
+    color: #413E39;
+}
+form > .row > input{
+    background-color: #F4EAD7;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'New Spirit Regular Condensed';
+    margin-bottom: 1vh;
+}
+form > .row > textarea{
+    background-color: #F4EAD7;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'New Spirit Regular Condensed';
+    font-size: 1.2vw;
+    margin-bottom: 1vh;
+    resize: none;
+    height: 24vh;
+}
+form > .row > button{
+    background-color: #41953C;
+    font-family: 'New Spirit Regular Condensed';
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+}
+
 .list-group-item{
     border: none;
     background-color: #FFFEF8;
@@ -74,19 +110,26 @@ footer{
 .footer-link:hover{
     text-decoration: underline;
 }
-.socialMedia > a{
+.social-media > a{
     color: inherit;
+    text-decoration: none;
+    color: #413E39;
+    transition: 0.3s
 }
-.socialMedia{
+.social-media{
     text-align: center;
     font-size: 250%;
 }
-.semibold{
+.social-media > a:hover{
+    color: #41953C;
+}
+.ns-semibold-condensed{
     font-family: 'New Spirit Semibold Condensed';
 }
-.reg_con{
+.ns-regular-condensed{
     font-family: 'New Spirit Regular Condensed';    
 }
+
 @media(min-width:0px){
     .footer-header{
         font-family: 'New Spirit Bold Condensed';
@@ -101,6 +144,20 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 3vw;
         letter-spacing: 0.2vw;
+    }
+    .contact-text{
+        font-size: 6vw;
+        text-align: center;
+    }
+    form > .row > input{
+        font-size: 4vw;
+    }
+    form > .row > textarea{
+        font-size: 4vw;
+    }
+    form > .row > button{
+        font-size: 4vw;
+        width: 24vw;
     }
 }
 
@@ -119,6 +176,37 @@ footer{
         font-size: 2vw;
         letter-spacing: 0.2vw;
     }
+    .contact-text{
+        font-size: 5vw;
+        text-align: center;
+    }
+    form > .row > input{
+        font-size: 3vw;
+    }
+    form > .row > textarea{
+        font-size: 3vw;
+    }
+    form > .row > button{
+        font-size: 3vw;
+        width: 18vw;
+    }
+}
+
+@media(min-width:768px){
+    .contact-text{
+        font-size: 3vw;
+        text-align: left;
+    }
+    form > .row > input{
+        font-size: 2vw;
+    }
+    form > .row > textarea{
+        font-size: 2vw;
+    }
+    form > .row > button{
+        font-size: 2vw;
+        width: 12vw;
+    }
 }
 
 @media(min-width:992px){
@@ -135,6 +223,19 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 1.5vw;
         letter-spacing: 0.2vw;
+    }
+    .contact-text{
+        font-size: 3vw;
+    }
+    form > .row > input{
+        font-size: 2vw;
+    }
+    form > .row > textarea{
+        font-size: 2vw;
+    }
+    form > .row > button{
+        font-size: 2vw;
+        width: 12vw;
     }
 }
 
@@ -153,4 +254,24 @@ footer{
         font-size: 1vw;
         letter-spacing: 0.2vw;
     }
+    .contact-text{
+        font-size: 2vw;
+    }
+    form > .row > input{
+        font-size: 1.4vw;
+    }
+    form > .row > textarea{
+        font-size: 1.4vw;
+    }
+    form > .row > button{
+        font-size: 1.4vw;
+        width: 8vw;
+    }
 }
+
+/* .col-12{
+    border: 1px solid red;
+}
+.row{
+    border: 1px solid blue;
+} */
