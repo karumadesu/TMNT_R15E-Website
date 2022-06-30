@@ -24,6 +24,7 @@ body{
     background-image: url("../images/bg.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: #FFFEF8;
 }
 .navbar{
     border-bottom: 3px solid #000;
