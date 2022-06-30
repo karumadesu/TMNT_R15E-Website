@@ -390,5 +390,7 @@ footer{
     }
     .home-description{
         font-size: 1.2vw;
+        display: block;
+        text-align: left;
     }
 }
