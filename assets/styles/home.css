@@ -62,6 +62,13 @@ body{
     border: 0;
 }
 
+.sponsor-button{
+    transition: transform 0.5s;
+}
+.sponsor-button:hover{
+    transform: scale(1.2);
+}
+
 .list-group-item{
     border: none;
     background-color: #FFFEF8;
@@ -70,6 +77,9 @@ footer{
     padding-top: 4vh;
     padding-bottom: 2vw;
     background-color: #FFFEF8;
+}
+.footer{
+    border-top: 3px solid #413E39;
 }
 .footer-link{
     color: inherit;
@@ -115,6 +125,9 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 3vw;
         letter-spacing: 0.2vw;
+    }
+    .sponsor-button{
+        margin-top: 1vh;
     }
 }
 
@@ -166,5 +179,8 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 1vw;
         letter-spacing: 0.2vw;
+    }
+    .sponsor-button{
+        margin-top: 2vh;
     }
 }

@@ -26,6 +26,7 @@
 body{
     margin-top: 12vh;
     color: #413E39;
+    background-color: #FFFEF8;
 }
 .navbar{
     border-bottom: 3px solid #000;
@@ -107,6 +108,9 @@ footer{
     padding-top: 4vh;
     padding-bottom: 2vw;
     background-color: #FFFEF8;
+}
+.footer{
+    border-top: 3px solid #413E39;
 }
 .footer-link{
     color: inherit;
