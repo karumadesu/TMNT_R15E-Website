@@ -18,6 +18,16 @@
     src: url("../fonts/NEWSPIRIT-REGULAR.TTF");
 }
 
+@font-face{ 
+    font-family: 'New Spirit Medium Condensed'; 
+    src: url("../fonts/NEWSPIRIT-MEDIUMCONDENSED.TTF");
+}
+
+@font-face{ 
+    font-family: 'New Spirit Light Condensed'; 
+    src: url("../fonts/NEWSPIRIT-LIGHTCONDENSED.TTF");
+}
+
 body{
     margin-top: 12vh;
     color: #413E39;
@@ -54,6 +64,44 @@ body{
 }
 .navbar-nav > li > a:hover{
     border: 2px solid #959595;    
+}
+
+.about-row{
+    margin-bottom: 10vh;
+}
+.about-title{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.about-description{
+    font-family: 'New Spirit Medium Condensed';
+    text-align: justify; 
+    line-height: normal;
+}
+.about-section-header{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.team-title{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.team-card{
+    border: 3px solid #413E39;
+    border-radius: 25px;
+}
+.team-info{
+    line-height: normal;
+}
+.team-name{
+    font-family: 'New Spirit Semibold Condensed';
+    color: #5A603B;
+}
+.team-role{
+    font-family: 'New Spirit Light Condensed';
+}
+.team-description{
+    font-family: 'New Spirit Regular Condensed';
+    text-align: justify;
+    line-height: normal; 
 }
 
 .list-group-item{
@@ -110,6 +158,32 @@ footer{
         font-size: 3vw;
         letter-spacing: 0.2vw;
     }
+    .about-description{
+        font-size: 3.4vw;
+        margin-top: 3vh;
+    }
+    .about-section-header{
+        font-size: 5vw;
+        display: block;
+        text-align: center;
+    }
+    .team-title{
+        font-size: 7vw;
+    }
+    .team-name{
+        font-size: 5vw;
+        display: block;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .team-role{
+        font-size: 3vw;
+        display: block;
+        text-align: center;
+    }
+    .team-description{
+        font-size: 3.6vw;
+    }
 }
 
 @media(min-width:576px){
@@ -162,3 +236,13 @@ footer{
         letter-spacing: 0.2vw;
     }
 }
+
+/* .col-12, .col-10, .col-8, .col-4, .col-7{
+    border: 1px solid red;
+}
+p, span{
+    border: 1px solid green;
+}
+.row{
+    border: 1px solid blue;
+} */
