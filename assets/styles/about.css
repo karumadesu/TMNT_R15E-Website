@@ -19,11 +19,6 @@
 }
 
 @font-face{ 
-    font-family: 'New Spirit Medium Condensed'; 
-    src: url("../fonts/NEWSPIRIT-MEDIUMCONDENSED.TTF");
-}
-
-@font-face{ 
     font-family: 'New Spirit Light Condensed'; 
     src: url("../fonts/NEWSPIRIT-LIGHTCONDENSED.TTF");
 }
@@ -71,10 +66,10 @@ body{
 
 .about-title{
     padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-bottom: 12vh;
 }
 .about-description{
-    font-family: 'New Spirit Medium Condensed';
+    font-family: 'New Spirit Regular Condensed';
     text-align: justify; 
     line-height: normal;
 }
@@ -352,13 +347,3 @@ footer{
         font-size: 1.1vw;
     }
 }
-
-/* .col-12, .col-10, .col-8, .col-4, .col-7{
-    border: 1px solid red;
-}
-p, span{
-    border: 1px solid green;
-}
-.row{
-    border: 1px solid blue;
-} */

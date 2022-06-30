@@ -14,8 +14,18 @@
 }
 
 @font-face{ 
+    font-family: 'New Spirit Medium Condensed'; 
+    src: url("../fonts/NEWSPIRIT-MEDIUMCONDENSED.TTF");
+}
+
+@font-face{ 
     font-family: 'New Spirit Regular'; 
     src: url("../fonts/NEWSPIRIT-REGULAR.TTF");
+}
+
+@font-face{ 
+    font-family: 'New Spirit Bold'; 
+    src: url("../fonts/NEWSPIRIT-BOLD.TTF");
 }
 
 body{
@@ -57,6 +67,64 @@ body{
 }
 .navbar-toggler{
     border: 0;
+}
+
+.project-title{
+    padding-top: 4vh;
+    padding-bottom: 12vh;
+}
+.project-section-header{
+    font-family: 'New Spirit Semibold Condensed';
+    margin-bottom: 3vh;
+}
+.carousel-row{
+    margin-bottom: 10vh;
+}
+.carousel-title{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.carousel-description{
+    font-family: 'New Spirit Regular Condensed';
+}
+.carousel-control-prev-icon{
+    background-image: url("../images/ToLeft.png") !important;
+    filter: none !important;
+}
+.carousel-control-next-icon{
+    background-image: url("../images/ToRight.png") !important;
+    filter: none !important;
+}
+.carousel-indicators .active{
+    background-color: #41953C !important;
+}
+.project-description{
+    font-family: 'New Spirit Regular Condensed';
+}
+.beneficiary-card{
+    border: 3px solid #413E39;
+    border-radius: 25px;
+}
+.beneficiary-text{
+    font-family: 'New Spirit Bold';
+}
+.beneficiary-description{
+    line-height: normal;
+    text-align: center;
+}
+.location-text{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.location-description{
+    font-family: 'New Spirit Medium Condensed';
+}
+.gallery-card{
+    border-radius: 25px;
+    padding: 0;
+    transition: transform 0.5s; 
+}
+.gallery-card:hover{
+    transform: scale(1.5);
+    z-index: 999;
 }
 
 .list-group-item{
@@ -113,6 +181,33 @@ footer{
         font-size: 3vw;
         letter-spacing: 0.2vw;
     }
+    .project-section-header{
+        font-size: 7vw;
+    }
+    .carousel-title{
+        font-size: 6vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-description{
+        font-size: 4vw;
+    }
+    .carousel-indicators{
+        bottom: -10vh;
+    }
+    .project-description{
+        font-size: 4vw;
+        margin-top: 4vh;
+    }
+    .beneficiary-text{
+        font-size: 6vw;
+    }
+    .location-text{
+        font-size: 4vw;
+    }
+    .location-description{
+        font-size: 4vw;
+    }
 }
 
 @media(min-width:576px){
@@ -129,6 +224,50 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 2vw;
         letter-spacing: 0.2vw;
+    }
+    .project-section-header{
+        font-size: 6vw;
+    }
+    .carousel-title{
+        font-size: 5vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-description{
+        font-size: 3vw;
+    }
+    .project-description{
+        font-size: 3vw;
+    }
+}
+
+@media(min-width:768px){
+    .project-section-header{
+        font-size: 5vw;
+    }
+    .carousel-title{
+        font-size: 4vw;
+        display: block;
+        text-align: left;
+    }
+    .carousel-description{
+        font-size: 2.6vw;
+    }
+    .carousel-indicators{
+        bottom: -10vh;
+    }
+    .project-description{
+        font-size: 2.4vw;
+        margin-top: 0;
+    }
+    .beneficiary-text{
+        font-size: 4vw;
+    }
+    .location-text{
+        font-size: 4vw;
+    }
+    .location-description{
+        font-size: 4vw;
     }
 }
 
@@ -147,6 +286,32 @@ footer{
         font-size: 1.5vw;
         letter-spacing: 0.2vw;
     }
+    .project-section-header{
+        font-size: 4vw;
+    }
+    .carousel-title{
+        font-size: 3vw;
+        display: block;
+        text-align: left;
+    }
+    .carousel-description{
+        font-size: 2vw;
+    }
+    .carousel-indicators{
+        bottom: -10vh;
+    }
+    .project-description{
+        font-size: 2vw;
+    }
+    .beneficiary-text{
+        font-size: 4vw;
+    }
+    .location-text{
+        font-size: 3vw;
+    }
+    .location-description{
+        font-size: 2vw;
+    }
 }
 
 @media(min-width:1200px){
@@ -163,5 +328,29 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 1vw;
         letter-spacing: 0.2vw;
+    }
+    .carousel-indicators{
+        bottom: -6vh;
+    }
+    .project-section-header{
+        font-size: 2.2vw;
+    }
+    .carousel-title{
+        font-size: 1.4vw;
+    }
+    .carousel-description{
+        font-size: 1.2vw;
+    }
+    .project-description{
+        font-size: 1.2vw;
+    }
+    .beneficiary-text{
+        font-size: 2.2vw;
+    }
+    .location-text{
+        font-size: 1.4vw;
+    }
+    .location-description{
+        font-size: 1.4vw;
     }
 }

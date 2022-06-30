@@ -59,6 +59,11 @@ body{
     border: 0;
 }
 
+.donate-title{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
 .list-group-item{
     border: none;
     background-color: #FFFEF8;
