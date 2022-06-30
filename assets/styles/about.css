@@ -81,7 +81,7 @@ body{
     font-family: 'New Spirit Semibold Condensed';
 }
 .team-card{
-    border: 3px solid #413E39;
+    background-color: #F4EAD7;
     border-radius: 25px;
 }
 .team-info{
@@ -110,7 +110,7 @@ footer{
     background-color: #FFFEF8;
 }
 .footer{
-    border-top: 3px solid #413E39;
+    border-top: 3px solid #99927F;
 }
 .footer-link{
     color: inherit;

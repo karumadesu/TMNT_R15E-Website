@@ -68,6 +68,47 @@ body{
 .sponsor-button:hover{
     transform: scale(1.2);
 }
+.section-header{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.section-subheader{
+    font-family: 'New Spirit Semibold Condensed';
+}
+.home-description{
+    font-family: 'New Spirit Regular Condensed';
+}
+.hashtag{
+    color: #448C24;
+}
+.find-out-button{
+    font-family:'New Spirit Regular Condensed';
+    color:white;
+    background-color: #448C24;
+    border:none;
+    border-radius: 5px;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+}
+.carousel{
+    margin-bottom: 20vh;
+}
+.carousel-control-prev-icon{
+    background-image: url("../images/ToLeft.png") !important;
+    filter: none !important;
+}
+.carousel-control-next-icon{
+    background-image: url("../images/ToRight.png") !important;
+    filter: none !important;
+}
+.carousel-indicators .active{
+    background-color: #41953C !important;
+}
+.social-media-logo{
+    transition: transform 0.5s;
+}
+.social-media-logo:hover{
+    transform: scale(1.2);
+}
 
 .list-group-item{
     border: none;
@@ -79,7 +120,7 @@ footer{
     background-color: #FFFEF8;
 }
 .footer{
-    border-top: 3px solid #413E39;
+    border-top: 3px solid #99927F;
 }
 .footer-link{
     color: inherit;
@@ -129,6 +170,42 @@ footer{
     .sponsor-button{
         margin-top: 1vh;
     }
+    .spacer{
+        min-height: 5vh;
+    }
+    .section-header{
+        font-size: 6vw;
+        display: block;
+        text-align: center;
+    }
+    .section-subheader{
+        font-size: 5vw;
+    }
+    .home-description{
+        font-size: 5vw;
+        display: block;
+        text-align: center;
+    }
+    .find-out-button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 6vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 4vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-indicators{
+        bottom: -12vh;
+    }
 }
 
 @media(min-width:576px){
@@ -145,6 +222,77 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 2vw;
         letter-spacing: 0.2vw;
+    }
+    .spacer{
+        min-height: 5vh;
+    }
+    .section-header{
+        font-size: 6vw;
+        display: block;
+        text-align: center;
+    }
+    .section-subheader{
+        font-size: 5vw;
+    }
+    .home-description{
+        font-size: 3.2vw;
+    }
+    .find-out-button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 6vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 4vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-indicators{
+        bottom: -12vh;
+    }
+}
+
+@media(min-width:768px){
+    .section-header{
+        font-size: 5vw;
+        display: block;
+        text-align: center;
+    }
+    .section-subheader{
+        font-size: 4vw;
+    }
+    .home-description{
+        font-size: 2.4vw;
+    }
+    .target-text{
+        text-align: left;
+    }
+    .find-out-button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 4vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 2.4vw;
+        display: block;
+        text-align: center;
+    }
+    .carousel-indicators{
+        bottom: -12vh;
     }
 }
 
@@ -163,6 +311,38 @@ footer{
         font-size: 1.5vw;
         letter-spacing: 0.2vw;
     }
+    .section-header{
+        font-size: 3.6vw;
+        display: block;
+        text-align: center;
+    }
+    .section-subheader{
+        font-size: 4vw;
+    }
+    .home-description{
+        font-size: 1.8vw;
+    }
+    .target-text{
+        text-align: left;
+    }
+    .find-out-button{
+        display: inline;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 3.6vw;
+        display: block;
+        text-align: left;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 1.8vw;
+        display: block;
+        text-align: left;
+    }
+    .carousel-indicators{
+        bottom: -6vh;
+    }
 }
 
 @media(min-width:1200px){
@@ -180,7 +360,30 @@ footer{
         font-size: 1vw;
         letter-spacing: 0.2vw;
     }
+    .spacer{
+        min-height: 15vh;
+    }
     .sponsor-button{
         margin-top: 2vh;
+    }
+    .carousel-title{
+        font-family: 'New Spirit Bold Condensed';
+        font-size: 1.8vw;
+    }
+    .carousel-description{
+        font-family: 'New Spirit Regular';
+        font-size: 1vw;
+    }
+    .carousel-indicators{
+        bottom: -12vh;
+    }
+    .section-header{
+        font-size: 2.4vw;
+    }
+    .section-subheader{
+        font-size: 1.4vw;
+    }
+    .home-description{
+        font-size: 1.2vw;
     }
 }
