@@ -89,6 +89,10 @@ body{
     padding-left: 0.8vw;
     padding-right: 0.8vw;
 }
+.button-link, .button-link:visited, .button-link:active{
+    text-decoration: none;
+    color: inherit;
+}
 .carousel{
     margin-bottom: 20vh;
 }
