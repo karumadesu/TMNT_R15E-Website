@@ -65,10 +65,10 @@ body{
 .navbar-nav > li > a:hover{
     border: 2px solid #959595;    
 }
-
-.about-row{
-    margin-bottom: 10vh;
+.navbar-toggler{
+    border: 0;
 }
+
 .about-title{
     padding-top: 4vh;
     padding-bottom: 4vh;
@@ -158,6 +158,9 @@ footer{
         font-size: 3vw;
         letter-spacing: 0.2vw;
     }
+    .about-row{
+        margin-bottom: 6vh;
+    }
     .about-description{
         font-size: 3.4vw;
         margin-top: 3vh;
@@ -177,12 +180,12 @@ footer{
         margin-top: 2vh;
     }
     .team-role{
-        font-size: 3vw;
+        font-size: 3.6vw;
         display: block;
         text-align: center;
     }
     .team-description{
-        font-size: 3.6vw;
+        font-size: 3.2vw;
     }
 }
 
@@ -201,6 +204,61 @@ footer{
         font-size: 2vw;
         letter-spacing: 0.2vw;
     }
+    .about-description{
+        font-size: 2.6vw;
+        margin-top: 3vh;
+    }
+    .about-section-header{
+        font-size: 4vw;
+        display: block;
+        text-align: center;
+    }
+    .team-title{
+        font-size: 6vw;
+    }
+    .team-name{
+        font-size: 4vw;
+        display: block;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .team-role{
+        font-size: 2.8vw;
+        display: block;
+        text-align: center;
+    }
+    .team-description{
+        font-size: 2.6vw;
+    }
+}
+
+@media(min-width:768px){
+    .about-description{
+        font-size: 2.4vw;
+        margin-top: 3vh;
+    }
+    .about-section-header{
+        font-size: 4vw;
+        display: block;
+        text-align: center;
+    }
+    .team-title{
+        font-size: 5vw;
+    }
+    .team-name{
+        font-size: 3.4vw;
+        display: block;
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .team-role{
+        font-size: 2.6vw;
+        display: block;
+        text-align: center;
+    }
+    .team-description{
+        font-size: 2.2vw;
+    }
 }
 
 @media(min-width:992px){
@@ -218,6 +276,35 @@ footer{
         font-size: 1.5vw;
         letter-spacing: 0.2vw;
     }
+    .about-row{
+        margin-bottom: 4vh;
+    }
+    .about-description{
+        font-size: 2vw;
+        margin-top: 0vh;
+    }
+    .about-section-header{
+        font-size: 3vw;
+        display: block;
+        text-align: left;
+    }
+    .team-title{
+        font-size: 4vw;
+    }
+    .team-name{
+        font-size: 2.6vw;
+        display: block;
+        text-align: left;
+        margin-top: 2vh;
+    }
+    .team-role{
+        font-size: 1.8vw;
+        display: block;
+        text-align: left;
+    }
+    .team-description{
+        font-size: 1.6vw;
+    }
 }
 
 @media(min-width:1200px){
@@ -234,6 +321,35 @@ footer{
         font-family: 'New Spirit Regular';
         font-size: 1vw;
         letter-spacing: 0.2vw;
+    }
+    .about-row{
+        margin-bottom: 10vh;
+    }
+    .about-description{
+        font-size: 1.5vw;
+        margin-top: 2vh;
+    }
+    .about-section-header{
+        font-size: 2.8vw;
+        display: block;
+        text-align: left;
+    }
+    .team-title{
+        font-size: 3.6vw;
+    }
+    .team-name{
+        font-size: 1.6vw;
+        display: block;
+        text-align: left;
+        margin-top: 2vh;
+    }
+    .team-role{
+        font-size: 1.2vw;
+        display: block;
+        text-align: left;
+    }
+    .team-description{
+        font-size: 1.1vw;
     }
 }
 

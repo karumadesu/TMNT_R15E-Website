@@ -55,6 +55,9 @@ body{
 .navbar-nav > li > a:hover{
     border: 2px solid #959595;    
 }
+.navbar-toggler{
+    border: 0;
+}
 
 .partners-title{
     padding-top: 4vh;
