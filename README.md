@@ -6,6 +6,6 @@
     <a href = "https://github.com/karumadesu/TMNT_R15E-Website">
         <br><br><br>
         <img src="https://github.com/karumadesu/TMNT_R15E-Website/blob/main/assets/images/logos/ACM-Logo.png" width="200px">
-        <img src="https://github.com/karumadesu/TMNT_R15E-Website/blob/main/assets/images/logos/FOF-Logo.png" width="400px">
+        <img src="https://github.com/karumadesu/TMNT_R15E-Website/blob/main/assets/images/logos/FOF-Logo.png" width="300px">
     </a>
 </h3>
